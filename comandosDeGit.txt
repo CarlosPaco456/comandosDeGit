@@ -3,3 +3,30 @@ git init para inicializar un repositio
 git config user.name para configurar el nombre
 
 git config user.email para configurar el correo
+
+git add para agregar cambios al stagin area
+
+git commit -m ""  guardar los cambios en el repositorio
+git log para ver el historial de commits
+
+git branch para listar ramas
+git branch <rama> para crear ramas
+
+git switch para cambiar entre ramas
+
+git switch -c para crear una rama y posicionarnos en esa nueva rama
+
+git checkout <rama> para cambiar entre ramas
+
+git checkout -b para crear una rama y posicionarnos en esa nueva rama
+
+git checkout archivo para deshacer cambios de un archivo
+
+git checkout <hash> volvía hasta el hash mencionado pero si deshacer nada
+
+git reset deshacer commits 
+	* --hard deshacías commits y borraba los cambios
+	* --soft deshacías commits pero mantenía los cambios en el area de preparación
+	* --mixed deshacías commits pero mantenía los cambios en el directorio de trabajo
+
+
