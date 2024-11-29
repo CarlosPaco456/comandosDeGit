@@ -1,0 +1,5 @@
+git init para inicializar un repositio
+
+git config user.name para configurar el nombre
+
+git config user.email para configurar el correo
